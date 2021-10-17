@@ -29,11 +29,11 @@
 <distributionManagement>
 	<repository>
 		<id>package</id>
-		<url>http://15.207.115.141:8081/repository/package/</url>
+		<url>http://13.233.15.64:8081/repository/package/</url>
 	</repository>
 	<snapshotsrepository>
 		<id>snapshots</id>
-		<url>http://15.207.115.141:8081/repository/snapshots/</url>
+		<url>http://13.233.15.64:8081/repository/snapshots/</url>
 	</snapshotsrepository>
 	</distributionManagement>
   <build>
