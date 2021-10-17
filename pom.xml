@@ -31,10 +31,10 @@
 		<id>package</id>
 		<url>http://13.233.15.64:8081/repository/package/</url>
 	</repository>
-	<snapshotsrepository>
+	<repository>
 		<id>snapshots</id>
 		<url>http://13.233.15.64:8081/repository/snapshots/</url>
-	</snapshotsrepository>
+	</repository>
 	</distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
