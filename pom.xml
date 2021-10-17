@@ -26,7 +26,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+<distributionManagement>
+	<repository>
+		<id>package</id>
+		<url>http://15.207.115.141:8081/repository/package/</url>
+	</repository>
+	<snapshotsrepository>
+		<id>snapshots</id>
+		<url>http://15.207.115.141:8081/repository/snapshots/</url>
+	</snapshotsrepository>
+	</distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
